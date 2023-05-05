@@ -10,5 +10,8 @@
   "scripts": {
     "codestyle:check": "tslint -c tslint.json -p tsconfig.json",
     "codestyle:fix": "tslint -c tslint.json -p tsconfig.json --fix"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.1"
   }
 }
