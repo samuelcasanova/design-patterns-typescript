@@ -3,9 +3,10 @@
   "description": "TypeScript examples for all classic GoF design patterns",
   "author": "Alexander Shvets <neochief@shvetsgroup.com>",
   "devDependencies": {
+    "@types/node": "^20.1.5",
     "tslint": "^5.12.1",
-    "typescript": "^3.3.3",
-    "tslint-config-airbnb": "^5.11.1"
+    "tslint-config-airbnb": "^5.11.1",
+    "typescript": "^3.3.3"
   },
   "scripts": {
     "codestyle:check": "tslint -c tslint.json -p tsconfig.json",
